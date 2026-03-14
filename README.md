@@ -17,7 +17,7 @@ The repository provides everything you need to start building with SOLVE-IT-X (e
 
 * Once you understand the example, a script is also provided `scripts/init-solve-it-x.py`, that will create an extension folder structure for you to easily add new data to SOLVE-IT in a similar manner to the example. This initialisation script will look at the current SOLVE-IT knowledge base and create a series of folders based on the techniques, weaknesses and mitigations currently in the repo. These folders can be used to store additional data that can be overlayed on top of the base information in the repo. This is discussed in the Section [Writing your own extension](#Writing-your-own-extension).
 
-* The example is also build within the GitHub repo online and published to https://solve-it-df.github.io/solve-it-x/ so you can see the effects easily live online. The repo comes with a [GitHub workflow script](https://github.com/SOLVE-IT-DF/solve-it-x/blob/main/.github/workflows/build.yml) that will build the SOLVE-IT-X demo to the docs folder. This script will copy into any repos you build from this template to make deployment easier.
+* The example is also build within the GitHub repo online and published to https://solve-it-df.github.io/solve-it-x/ so you can see the effects easily live online. The repo comes with a [GitHub workflow script (`Build SOLVE-IT-X to HTML in docs folder`)](https://github.com/SOLVE-IT-DF/solve-it-x/blob/main/.github/workflows/build.yml). This can be manually run and will build the SOLVE-IT-X demo to the docs folder (served via GitHub Pages). This script will also copy into any repos you build from this template to make deployment easier.
 
 # Explanation of the example
 
