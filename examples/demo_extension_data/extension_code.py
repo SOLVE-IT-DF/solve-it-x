@@ -191,9 +191,13 @@ def get_html_generic(kb=None):
         raise ValueError("kb is None")
 
     return (
+        '<div style="background:#e8f5e9;border:1px solid #a5d6a7;border-radius:6px;padding:10px 14px;'
+        'font-size:.82rem;color:#2e7d32;text-align:center;margin-bottom:6px">'
+        'This is the hello world example showing the customisation of the SOLVE-IT Explorer with SOLVE-IT-X.'
+        '</div>'
         '<div style="background:#f0f4ff;border:1px solid #c7d2fe;border-radius:6px;padding:10px 14px;'
         'font-size:.82rem;color:#4338ca;display:flex;gap:16px;align-items:center;flex-wrap:wrap">'
-        '<strong>SOLVE-IT Stats</strong>'
+        '<strong>SOLVE-IT Stats (added by SOLVE-IT-X)</strong>'
         f'<span>Objectives: {len(kb.list_objectives())}</span>'
         f'<span>Techniques: {len(kb.list_techniques())}</span>'
         f'<span>Weaknesses: {len(kb.list_weaknesses())}</span>'
