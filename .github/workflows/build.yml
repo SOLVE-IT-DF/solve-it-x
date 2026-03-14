@@ -1,4 +1,4 @@
-name: Build SOLVE-IT-X
+name: Build SOLVE-IT-X to HTML in docs folder
 
 on:
   workflow_dispatch:
