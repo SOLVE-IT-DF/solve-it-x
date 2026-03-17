@@ -16,10 +16,13 @@
         "weaknesses": true,
         "CASE_input_classes": true,
         "CASE_output_classes" : true,
-        "references": true
+        "references": true,
+        "properties": true,
+        "contributors": true,
+        "reviewers": true
     },
 
-    "weakness_fields": 
+    "weakness_fields":
     {
         "id": true,
         "name": true,
@@ -30,15 +33,21 @@
         "INAC-COR": true,
         "MISINT": true,
         "mitigations": true,
-        "references": true
+        "references": true,
+        "properties": true,
+        "contributors": true,
+        "reviewers": true
     },
 
-    "mitigation_fields": 
+    "mitigation_fields":
     {
         "id": true,
         "name": true,
         "technique": true,
-        "references" : true
+        "references" : true,
+        "properties": true,
+        "contributors": true,
+        "reviewers": true
     }
 }
 
