@@ -30,12 +30,7 @@
     {
         "id": true,
         "name": true,
-        "INCOMP": true,
-        "INAC-EX": true,
-        "INAC-AS": true,
-        "INAC-ALT": true,
-        "INAC-COR": true,
-        "MISINT": true,
+        "categories": true,
         "mitigations": true,
         "references": true,
         "properties": false,
