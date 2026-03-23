@@ -134,7 +134,14 @@ You can then use the same script with different parameters to initialise a templ
 python3 scripts/init-solve-it-x.py --init-extension --path '/Users/user/dev/solve-it-x-demo/test/demo_ext1'
 ```
 
-This will create that folder if it does not exist, access the latest online repo for SOLVE-IT, read all the techniques, weaknesses and mitigations and create a folder structure that mirrors the current state of the repo, with a subfolder for each ID of techniques, weaknesses and mitigations. It will also create a template version of `extension_code.py` e.g.:
+This will create that folder if it does not exist, access the latest online repo for SOLVE-IT, read all the techniques, weaknesses and mitigations and create a folder structure that mirrors the current state of the repo, with a subfolder for each ID of techniques, weaknesses and mitigations. It will also create a template version of `extension_code.py`.
+
+> **Note (macOS):** If you see `SSL: CERTIFICATE_VERIFY_FAILED` errors when running this script, you need to install Python's SSL certificates. This is a [known issue with the macOS Python installer](https://docs.python.org/3/using/mac.html). To fix it, run the following command (adjusting the version number to match your Python installation):
+> ```
+> /Applications/Python\ 3.13/Install\ Certificates.command
+> ```
+
+e.g.:
 
 ```
 demo_ext1/
